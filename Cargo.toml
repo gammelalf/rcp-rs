@@ -1,7 +1,14 @@
 [package]
 name = "rc_protocol"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2021"
+license = "MIT"
+description = "Rust implementation of the Random Checksum Protocol"
+homepage = "https://github.com/gammelalf/rcp-rs/"
+repository = "https://github.com/gammelalf/rcp-rs/"
+readme = "README.md"
+keywords = ["protocol", "checksum"]
+categories = ["authentication"]
 
 [dependencies]
 sha2 = "0.10"
